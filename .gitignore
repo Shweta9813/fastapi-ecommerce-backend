@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Python distribution files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs and runtime files
+*.log
+*.pid
+
+# Test-related
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# MongoDB dump (if using mongodump)
+dump/
+
+# Docker-related (optional overrides)
+docker-compose.override.yml
+
+# Jupyter (optional)
+.ipynb_checkpoints/
+
+# Pydantic compiled files (if using)
+__pydantic_cache__/
