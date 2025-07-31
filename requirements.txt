@@ -1,0 +1,29 @@
+fastapi
+uvicorn[standard]
+
+# MongoDB driver
+pymongo
+
+# Data validation
+pydantic
+
+# JWT Auth
+python-jose[cryptography]
+passlib[bcrypt]
+
+# CORS middleware
+fastapi[all]
+
+# Load .env config
+python-dotenv
+
+# Optional: Email validation + sending
+email-validator
+aiosmtplib
+
+# Password hashing
+bcrypt
+
+# Testing utilities (optional)
+pytest
+httpx
