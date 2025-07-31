@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.routes.user_registration import router as user_registration_router
+from app.routes.user_auth import router as user_registration_router
 
 app = FastAPI(title="E-commerce Backend API")
 
